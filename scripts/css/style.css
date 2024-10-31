@@ -1,0 +1,136 @@
+:root {
+    --blue: #3490f3;
+    --hov-blue: #2e7fd6;
+    --soft-blue: rgba(0, 123, 255, 0.15);
+    --secondary-base: #13814C;
+    --hov-secondary-base: #0f6f41;
+    --soft-secondary-base: rgba(19, 129, 76, 0.15);
+    --gray: #9d9da6;
+    --gray-dark: #8d8d8d;
+    --secondary: #919199;
+    --soft-secondary: rgba(145, 145, 153, 0.15);
+    --success: #85b567;
+    --soft-success: rgba(133, 181, 103, 0.15);
+    --warning: #f3af3d;
+    --soft-warning: rgba(243, 175, 61, 0.15);
+    --light: #b8b8b8;
+    --soft-light: #b8b8b8;
+    --soft-white: #b8b8b8;
+    --dark: #292933;
+    --soft-dark: #1b1b28;
+    --primary: #4aa556;
+    --hov-primary: #e62e04;
+    --soft-primary: rgba(74, 165, 86, 0.15);
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    background-color: #85b567;
+}
+
+.pagination .page-link,
+.page-item.disabled .page-link {
+    min-width: 32px;
+    min-height: 32px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid var(--soft-light);
+    font-size: 0.875rem;
+    border-radius: 0 !important;
+    color: var(--dark);
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.aiz-carousel.coupon-slider .slick-track {
+    margin-left: 0;
+}
+
+.form-control:focus {
+    border-width: 2px !important;
+}
+
+.iti__flag-container {
+    padding: 2px;
+}
+
+.modal-content {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.tagify.tagify--focus {
+    border-width: 2px;
+    border-color: var(--primary);
+}
+
+#map {
+    width: 100%;
+    height: 250px;
+}
+
+#edit_map {
+    width: 100%;
+    height: 250px;
+}
+
+.pac-container {
+    z-index: 100000;
+}
+
+img.w-auto.h-100.has-transition {
+    max-width: 100%;
+    max-height: 100% !important;
+    height: auto !important;
+}
+
+#section_featured .slick-slider .slick-list {
+    background: #85b567;
+}
+
+#flash_deal .slick-slider .slick-list .slick-slide,
+#section_featured .slick-slider .slick-list .slick-slide,
+#section_best_selling .slick-slider .slick-list .slick-slide,
+#section_newest .slick-slider .slick-list .slick-slide {
+    margin-bottom: -5px;
+}
+
+.slider-card-section {
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.16));
+}
+
+@media (max-width: 991px) {
+    #flash_deal .slick-slider .slick-list .slick-slide {
+        margin-bottom: 0px;
+    }
+
+    .slider-card-section .container {
+        min-width: auto !important;
+    }
+}
+
+@media (max-width: 575px) {
+    #section_featured .slick-slider .slick-list .slick-slide {
+        margin-bottom: -4px;
+    }
+}
+
+@media (min-width: 576px) {
+    #section_featured .sm-gutters-15 {
+        margin-left: -16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .slider-card-section {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+}
