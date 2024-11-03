@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background: #dde1e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.aiz-main-wrapper, .carousel-box, .top-navbar, .footer-widget, img, button, .btn, .page-link, input, textarea, select {
+    background: #dde1e7;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.5),
+                5px 5px 15px rgba(94, 104, 121, 0.3);
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover, button:hover, .btn:hover, .page-link:hover {
+    transform: scale(1.05);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #292933;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+  
