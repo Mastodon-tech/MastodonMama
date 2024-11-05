@@ -1454,9 +1454,9 @@ $.fn.toggleAttr = function (attr, attr1, attr2) {
                         adaptiveHeight: adaptiveHeight,
                         slidesToScroll: 1,
                         prevArrow:
-                            '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+                            '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
                         nextArrow:
-                            '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+                            '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
                         responsive: [
                             {
                                 breakpoint: 1500,
